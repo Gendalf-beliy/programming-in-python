@@ -1,0 +1,4 @@
+def num_to_str(numlist):
+    for i in range(len(numlist)):
+        numlist[i] = str(numlist[i])
+    return numlist
